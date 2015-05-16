@@ -56,6 +56,13 @@ h2.content-container-title {
   font-size: .9rem;
 }
 
+.content-select-list .content-select {
+  padding: 0.57142857rem 0.75rem;
+  background: #edf1f2;
+  border-bottom: 1px dashed #373c3d;
+  margin: 0 1rem;
+}
+
 .content-submit {
   text-align: center;
   margin: 3rem auto;
@@ -66,4 +73,34 @@ h2.content-container-title {
   color: #ffffff;
   font-weight: bold;
   background: #97c63d;
+}
+
+.content-select-standard h2 {
+  font-weight: bold;
+  padding: 1.5rem 1.75rem;
+}
+
+.standard-item {
+  position: relative;
+}
+
+.standard-item span:first-child {
+  position: relative;
+  left: 2rem;
+}
+
+.standard-item b {
+  height: 0;
+  border-top: 1px dashed #373c3d;
+  width: 45%;
+  display: inline-block;
+  position: relative;
+  left: 2.4rem;
+  top: -.35rem;
+}
+
+.standard-item span:last-child {
+  position: absolute;
+  right: 3rem;
+  color: #f66c30;
 }
