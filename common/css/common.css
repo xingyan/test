@@ -141,7 +141,15 @@ nav .nav-calc.cur i {
 
 .content-container {
   position: relative;
+  width: 100%;
   top: 2.39285714rem;
+}
+
+.content-container:after {
+  content: '';
+  height: 3.75rem;
+  width: 100%;
+  display: block;
 }
 
 nav .nav-common.cur i {
