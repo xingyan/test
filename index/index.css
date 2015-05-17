@@ -1,0 +1,41 @@
+.index-time, .index-site {
+  position: absolute;
+  color: #ffffff;
+  font-size: .9rem;
+  line-height: 2.39285714rem;
+}
+
+.index-time {
+  left: .5rem;
+  background: url(img/time-ico.png) left .78rem no-repeat;
+  background-size: 0.71428571rem 0.71428571rem;
+  text-indent: .9rem;
+}
+
+.index-time span:first-child {
+  font-size: 1rem;
+  border-right: 1px solid #7dcdeb;
+  padding-right: .3rem;
+}
+
+.index-time span:last-child {
+  margin-left: .3rem;
+}
+
+.index-site {
+  right: .2rem;
+}
+
+.index-content-total {
+  background: #f5f5f5;
+  height: 5.28571428rem;
+  text-align: center;
+}
+
+.content-total-prj, .content-total-rate {
+  display: inline-block;
+  width: 49%;
+  line-height: 1.2rem;
+  padding: 1.5rem 0;
+}
+
